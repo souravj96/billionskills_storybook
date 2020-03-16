@@ -17,7 +17,8 @@ export const SLottie = ({ children, ...props }) => {
                 speed={!props.speed ? 1 : props.speed}
                 height={!props.height ? 50 : props.height}
                 width={!props.width ? 50 : props.width}
-                style={!props.style ? {} : props.style} />
+                style={!props.style ? {} : props.style} 
+                className={!props.className ? "" : props.className}/>
             <div className="s-lottie-text font-hind">
                 {children}
             </div>
