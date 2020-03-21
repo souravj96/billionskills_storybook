@@ -6,7 +6,7 @@ import 'antd/dist/antd.css';
 
 export const STag = ({ children, ...props }) => {
     return (
-        <Tag style={{ width: '100%' }} {...props}>
+        <Tag {...props}>
             {children}
         </Tag>
     )
