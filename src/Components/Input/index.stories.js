@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { SInput } from './index'
+import { SInput, SSearch } from './index'
 
 export default {
     title: 'Input',
@@ -8,3 +8,6 @@ export default {
 
 export const BasicInput = () =>
     <SInput placeholder="Basic usage" />
+
+export const SearchInput = () =>
+    <SSearch placeholder="input search text" enterButton />
