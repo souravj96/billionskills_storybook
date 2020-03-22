@@ -11,14 +11,10 @@ const normFile = e => {
 };
 
 export const SDropUploader = ({ children, ...props }) => (
-    <Form.Item label="Dragger">
+    <Form.Item>
         <Form.Item valuePropName="fileList" getValueFromEvent={normFile} noStyle>
             <Upload.Dragger name="files" action="/upload.do" {...props} >
-                <p className="ant-upload-drag-icon">
-                    {children}
-                </p>
-                <p className="ant-upload-text">Click or drag file to this area to upload</p>
-                <p className="ant-upload-hint">Support for a single or bulk upload.</p>
+                {children}
             </Upload.Dragger>
         </Form.Item>
     </Form.Item>
