@@ -1,7 +1,5 @@
 import React from 'react'
 
-import { UploadOutlined, InboxOutlined } from '@ant-design/icons';
-
 import { Form, Upload } from 'antd'
 
 const normFile = e => {
