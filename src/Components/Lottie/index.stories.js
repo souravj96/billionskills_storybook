@@ -17,3 +17,6 @@ export const NoNotification = () => <SLottie type="noNotification" height={200} 
 export const NoSearc = () => <SLottie type="noSearch" height={200} width={200} />;
 export const Error404 = () => <SLottie type="error404" height={200} width={200} />;
 export const Error500 = () => <SLottie type="error500" height={200} width={200} />;
+export const ChangePassword = () => <SLottie type="changePassword" height={200} width={200} />;
+export const ForgetPassword = () => <SLottie type="forgetPassword" height={200} width={200} />;
+export const MailSent = () => <SLottie type="mailSent" height={200} width={200} />;

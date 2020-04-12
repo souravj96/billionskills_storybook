@@ -9,6 +9,9 @@ import * as noNotification from './nonotification.json'
 import * as noSearch from './nosearch.json'
 import * as error404 from './error404.json';
 import * as error500 from './error500.json'
+import * as changePassword from './changepassword.json'
+import * as forgetPassword from './forgetpassword.json'
+import * as mailSent from './mailsent.json'
 
 export default {
     userDesktop: userDesktop,
@@ -21,5 +24,8 @@ export default {
     noNotification: noNotification,
     noSearch: noSearch,
     error404: error404,
-    error500: error500
+    error500: error500,
+    changePassword: changePassword,
+    forgetPassword: forgetPassword,
+    mailSent: mailSent
 }
